@@ -1,0 +1,20 @@
+{
+    "name": "alexey_baranov/ldap-utils",
+    "description": "Утилиты для работы с LDAP",
+    "authors": [
+        {
+            "name": "Alexey Baranov",
+            "email": "alexey_baranov@inbox.ru"
+        }
+    ],
+    "require": {
+        "zendframework/zendframework" : "2.*",
+        "apache/log4php" : "2.*",
+        "PHPUnit/PHPUnit" : "3.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "LdapUtils": "library/"
+        }
+    }
+}
