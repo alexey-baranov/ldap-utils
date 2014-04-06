@@ -8,13 +8,13 @@
         }
     ],
     "require": {
-        "zendframework/zendframework" : "2.*",
-        "apache/log4php" : "2.*",
-        "PHPUnit/PHPUnit" : "3.*"
+        "zendframework/zendframework" : "2.3.*",
+        "apache/log4php" : "2.3.*",
+        "PHPUnit/PHPUnit" : "4.0.*"
     },
     "autoload": {
         "psr-0": {
-            "LdapUtils": "library/"
+            "LdapUtils": "lib/"
         }
     }
 }
