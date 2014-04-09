@@ -9,7 +9,9 @@
     ],
     "require": {
         "zendframework/zendframework" : "2.3.*",
-        "apache/log4php" : "2.3.*",
+        "apache/log4php" : "2.3.*"
+    },
+    "require-dev": {
         "PHPUnit/PHPUnit" : "4.0.*"
     },
     "autoload": {
